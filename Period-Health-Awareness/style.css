@@ -1,0 +1,256 @@
+/* STYLE SECTIONING TAGS */
+* { /* Resets the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+header
+{
+  color: #FF928B;
+  padding: 1em;
+  font-family: "Dancing Script";
+  font-size: 60px;
+}
+
+body 
+{
+  height:100%;
+  background-image: url(assets/brightbeige.jpg);
+  text-align: center;
+}
+
+main
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* STYLE HEADER */
+
+h1
+{
+  color: #FF928B;
+  background-color: white;
+  margin-left: 29.5%;
+  margin-right: 29.5%;
+  margin-top: 10px;
+  border-color: #FF928B;
+  border-width: 7px;
+  border-style: solid;
+}
+
+p
+{
+  padding: 1em;
+  color: #FF928B;
+  background-color: white;
+  margin-left: 29.5%;
+  margin-right: 29.5%;
+  border-color: #FF928B;
+  border-width: 5px;
+  border-style: solid;
+}
+
+/* STYLE IMAGES */
+
+img 
+{
+  border-width:7px;
+  border-style:solid;
+  border-color:#FF928B;
+  max-width: 40%;
+  max-height: 40%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* STYLE NAV BAR */
+
+ul{
+  list-style-type: none;
+  background-color: #FF928B;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li
+{
+  padding: 1em;
+  display: inline;
+}
+
+li a 
+{
+  font-family: arial;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover
+{
+  background-color: #F25C54;
+}
+
+/* five parallax items for main home page */
+#parallax-1
+{
+  width: 97.75%;
+  height: 100%;
+  background: url("assets/lightcoral.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 1em;
+}
+
+#parallax-2
+{
+  width: 97.75%;
+  height: 100%;
+  background: url("assets/brightbeige.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 1em;
+}
+
+#parallax-3
+{
+  width: 97.75%;
+  height: 100%;
+  background: url("assets/lightbeige.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 1em;
+}
+
+#parallax-4
+{
+  width: 97.75%;
+  height: 100%;
+  background: url("assets/verylightorange.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 1em;
+}
+
+#parallax-5
+{
+  width: 97.75%;
+  height: 100%;
+  background: url("assets/brightcream.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 1em;
+}
+
+/* title for explore tab*/
+#disorders
+{
+  margin-right: 12.75%;
+  margin-left: 12.75%;
+  padding: 1em;
+}
+
+/* ids one-eight are images for explore page */
+#one
+{
+  max-width: 30%;
+}
+#two
+{
+  /*max-width: 15.75%;*/
+  max-width: 14.25%;
+}
+
+#three
+{
+  max-width: 13.5%;
+}
+
+#four
+{
+  max-width: 24.5%;
+}
+
+#five
+{
+  max-width: 23.55%;
+}
+
+#six
+{
+  max-width: 19%;
+}
+
+#seven
+{
+  max-width: 13.5%;
+}
+
+#eight
+{
+  max-width: 29%;
+}
+
+/* resources page image resizing */
+#clue
+{
+  max-width: 20%;
+}
+
+#flo
+{
+  max-width: 20%;
+}
+
+/* header text for resources page*/
+#app 
+{
+  margin-right: 29%;
+  margin-left: 28.75%;
+}
+
+/* resources parallax pages */
+#parallax-6
+{
+  width: 97.75%;
+  height: 100%;
+  background: url("assets/lightcoral.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 1em;
+}
+
+#parallax-7
+{
+  width: 97.75%;
+  height: 100%;
+  background: url("assets/brightcream.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 1em;
+}
+
+/* Media Query 767 px for phone screen */
+@media (max-width: 767px)
+{
+
+  body 
+  {
+    margin-left: 0%;
+    margin-right: 0%;
+    justify-content: center;
+  }
+
+  li a 
+  {
+    font-size: 1em;
+  }
+    
+}
+
+
+ 
+      
+       
+
